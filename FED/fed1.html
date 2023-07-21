@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0ff319aedc.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.jpg" class="logo" height="100" width="500">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-ellipsis-vertical" onclick=" openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>WEB Designer</p>
+            <h1>Hi, I'm <span>Jahnavi</span> <br>From INDIA</h1>
+        </div>
+    </div>
+</div>
+<!----------about----------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="C:\Users\chara\Downloads\janu.jpg" alt="user" height="400" width="100">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Iam Jahnavi Purushottam,pursing btech in Vignan's Nirula Institute of Technology and Science For Women
+                     in Electronics and Communication engineering with the CGPA of 8.4................</p>
+                     <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links"onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links"onclick="opentab('education')">Education</p> 
+                        
+                     </div>
+                     <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces<br></li>
+                            <li><span>Web Development</span><br>WebApp Development<br></li>
+                            <li><span>App Development</span><br>Building Android<br></li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021-current</span><br>leaning front end development<br></li>
+                            <li><span>2022</span><br>WebApp Development<br></li>
+                            <li><span>2023</span><br>Building Android and no work experience<br></li>
+                        </ul>
+                     </div>
+                     <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>ssc at Ravindra Bharathi School<br></li>
+                            <li><span>2020</span><br>Inter  in MPC in Narayana Junior College<br></li>
+                            <li><span>2024</span><br>Btech in Electronics and Communication Engineering(pursing)<br></li>
+                        </ul>
+                     </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
